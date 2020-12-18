@@ -18,9 +18,20 @@ body {
   height: 50vh;
 }
 
+.cityCountry {
+  position: relative;
+  display: block;
+}
+
 .city {
   font-size: 5rem;
   font-weight: 700;
+}
+
+.country {
+  position: absolute;
+  top: 0;
+  right: 21%;
 }
 
 .cityWeather {

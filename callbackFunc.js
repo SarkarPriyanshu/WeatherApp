@@ -5,6 +5,7 @@ async function remoteDataFetch(cityName){
 
     console.log(fetchData)
     document.querySelector('.city').innerHTML = fetchData.name;
+    document.querySelector('.country').innerHTML = fetchData.sys.country;
     document.querySelector('.longValue').innerText = fetchData.coord.lon
     document.querySelector('.latiValue').innerText = fetchData.coord.lat
     document.querySelector('.tempreture').innerText = `${Math.floor(fetchData.main.temp - 273)}°c`;
