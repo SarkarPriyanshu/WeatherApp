@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="container">
+        <h1 class="city"></h1>
+        <p class="cityWeather"></p>
+        <img class="weatherImg" src="" alt="">
+        <p class="tempreture"></p>
+        <div class="coordinates">
+            <span class="longitude">
+                <label for="longitude">Longitude</label>
+                <p class="longValue"></p>
+            </span>
+            <span class="latitude">
+                <label for="latitude">Latitude</label>
+                <p class="latiValue"></p>
+            </span>
+        </div>
+    </section>
+    <section class="form-group">
+        <label for="city">Enter City</label>
+        <input id="cityInput" type="text">
+        <button class="btn" type="submit">Check</button>
+    </section>    
+    <script src="callbackFunc.js"></script>
+</body>
+</html>
